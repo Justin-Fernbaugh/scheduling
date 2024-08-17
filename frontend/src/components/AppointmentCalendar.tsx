@@ -76,7 +76,7 @@ const AppointmentCalendar = (): JSX.Element => {
 
 	const [availability, setAvailability] = useState<Array<Availability>>([]);
 	const [slots, setSlots] = useState<Array<Slot>>([]);
-	const [currentMonth, setCurrentMonth] = useState<number>(1);
+	const [currentMonth, setCurrentMonth] = useState<number>(0);
 
 	useEffect(() => {
 		// Fetch availability for the current month or next month
@@ -161,7 +161,7 @@ const AppointmentCalendar = (): JSX.Element => {
 
 	const handleMonthToggle = (): void => {
 		// Toggle between current month (1) and next month (0)
-		setCurrentMonth((previous) => (previous === 1 ? 0 : 1));
+		setCurrentMonth((previous) => (previous === 0 ? 1 : 0));
 	};
 
 	const getMonthName = (monthIndex: number): string => {
