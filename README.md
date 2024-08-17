@@ -23,6 +23,20 @@
 - **Node.js**: Ensure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org).
 - **npm**: Node.js package manager, which comes with Node.js.
 
+### Fast Dockerfile Setup
+
+- Build the Frontend and Backend inside a single Docker container then deploy to access locally.
+
+1. Navigate to the root directory and build Dockerfile:
+   ```sh
+   docker build -t my-scheduling-app .
+   ```
+2. Run the docker container:
+   ```sh
+   docker run -p 8000:8000 -p 3000:3000 my-scheduling-app
+   ```
+3. Access the website locally at [http://localhost:3000](http://localhost:3000)
+
 ### Backend Setup
 
 1. Navigate to the backend directory:
