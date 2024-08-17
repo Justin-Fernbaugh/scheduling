@@ -19,16 +19,19 @@
 ## Fast Dockerfile Setup
 
 - Build the Frontend and Backend inside a single Docker container then deploy to access locally.
-
-1. Navigate to the root directory and build Dockerfile:
+1. Install npm package 'serve' globally. (Ran by start.sh):
+   ```sh
+   npm install --global serve
+   ```
+2. Navigate to the root directory and build Dockerfile:
    ```sh
    docker build -t my-scheduling-app .
    ```
-2. Run the docker container:
+3. Run the docker container:
    ```sh
    docker run -p 8000:8000 -p 3000:3000 my-scheduling-app
    ```
-3. Access the website locally at [http://localhost:3000](http://localhost:3000)
+4. Access the website locally at [http://localhost:3000](http://localhost:3000)
 
 ## How to Run / Setup the Frontend and Backend
 
