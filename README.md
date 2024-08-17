@@ -16,14 +16,7 @@
 - **Axios**
 - **Cors**
 
-## How to Run / Setup the Frontend and Backend
-
-### Prerequisites
-
-- **Node.js**: Ensure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org).
-- **npm**: Node.js package manager, which comes with Node.js.
-
-### Fast Dockerfile Setup
+## Fast Dockerfile Setup
 
 - Build the Frontend and Backend inside a single Docker container then deploy to access locally.
 
@@ -36,6 +29,13 @@
    docker run -p 8000:8000 -p 3000:3000 my-scheduling-app
    ```
 3. Access the website locally at [http://localhost:3000](http://localhost:3000)
+
+## How to Run / Setup the Frontend and Backend
+
+### Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org).
+- **npm**: Node.js package manager, which comes with Node.js.
 
 ### Backend Setup
 
