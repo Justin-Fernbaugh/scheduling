@@ -4,16 +4,17 @@
 
 ### Frontend
 
-- **React**: A JavaScript library for building user interfaces.
-- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
-- **Axios**: A promise-based HTTP client for the browser and Node.js.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React**
+- **TypeScript**
+- **Axios**
+- **Tailwind CSS**
 
 ### Backend
 
-- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
-- **Express**: A minimal and flexible Node.js web application framework.
-- **Cors**: A Node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+- **Node.js**
+- **Express**
+- **Axios**
+- **Cors**
 
 ## How to Run / Setup the Frontend and Backend
 
@@ -117,7 +118,7 @@
   - Renders the header bar with the title "Scheduling".
   - Renders the `AppointmentCalendar` component in the main content area.
 
-## Running the Application
+## Running the Application (After Setup)
 
 1. Start the backend server:
    ```sh
@@ -129,6 +130,6 @@
    cd frontend
    npm start
    ```
-3. Access the application: Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+3. Access the application: Open your browser and navigate to [http://localhost:5173](http://localhost:5173).
 
 The frontend will communicate with the backend to fetch appointment data and display it in a user-friendly calendar interface.
