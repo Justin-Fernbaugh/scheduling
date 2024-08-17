@@ -123,12 +123,12 @@
 1. Start the backend server:
    ```sh
    cd backend
-   npm start
+   npm run dev
    ```
 2. Start the frontend development server:
    ```sh
    cd frontend
-   npm start
+   npm run dev
    ```
 3. Access the application: Open your browser and navigate to [http://localhost:5173](http://localhost:5173).
 
