@@ -5,7 +5,6 @@ const app = express();
 // get port from environment variable or use default port 8000
 const port = process.env.PORT || 8000;
 
-// create router
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
