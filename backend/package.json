@@ -5,7 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "supervisor -g app.js"
+		"dev": "supervisor -g app.js",
+		"start": "node app.js"
 	},
 	"author": "Justin-Fernbaugh",
 	"license": "ISC",
